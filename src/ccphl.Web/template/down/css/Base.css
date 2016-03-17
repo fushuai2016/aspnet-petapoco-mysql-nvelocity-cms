@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html,body{margin: 0px; padding: 0px; border: 0px currentColor;font-family:"微软雅黑", SimSun, Arial, Tahoma, Helvetica, san-serif; color:#373737}
+div {
+	 padding: 0px; border: 0px currentColor; 
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; 
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; _border:none; *border:none; border:none !important;}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left;list-style: none;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left;
+}
+dt {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-align: left;
+}
+
+li {
+	list-style:none;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+p  {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;width: auto;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+input {
+	outline: 0px;
+}
+a 
+{
+     color: #373737;
+	 text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+	color: #b60c0c;
+}
+input {
+	font-family: inherit; font-style: inherit; font-weight: inherit;
+}
+button {
+	font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;
+}
+textarea {
+	font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;overflow: auto;border: none;border: 0;
+}
+select {
+	font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;
+}
+optgroup {
+	font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;
+}
+option {
+	font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;
+}
+u {
+	margin: 0px; padding: 0px; font-style: normal; font-weight: 100; text-decoration: none; display: block;
+}
+i {
+	margin: 0px; padding: 0px; font-style: normal; font-weight: 100; text-decoration: none; display: block;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* Clear Fix */ 
+.clearfix:before,.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; } 
+.clearfix { display:inline-block; } 
+/* Hide from IE Mac */ 
+.clearfix {display:block;} 
+/* End hide from IE Mac */ 
+/* end of clearfix */
+.fl{float:left;}.fr{float:right;}.cl{clear:both;}
+.ol{ overflow:hidden;}
+/******webuploader******/
+#add_img_list{ width: 100%;height: auto;overflow: hidden}
+#add_img_list li{ float: left;margin: 3px;}
+#add_img_list li img{padding: 3px;background: #eee;width: 120px;height: 90px;}

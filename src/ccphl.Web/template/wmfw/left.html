@@ -1,0 +1,18 @@
+﻿<div class="faq-aside"> 
+    <div id="questionList" class="question-list">
+        #set($list=$sqlhelper.GetColumns(" ChannelID=$channel.ChannelID AND Status=1 AND
+        ParentID=0 ORDER BY OrderBy ASC,AddTime ASC ")) #foreach($m in $list)
+        <dl class="dl-0 #if($m.ColumnID==$parent.ColumnID||$m.ColumnID==$column.ColumnID) show current #end" data-rel="item-0">
+            <dt><span class="arrow"></span><a #if($m.LinkOutUrl!="") href="$m.LinkOutUrl" target="_blank" #else href="/List.aspx?chid=$m.ChannelID&cid=$m.ColumnID" #end
+                title="$m.ColumnName">$sqlhelper.Sub($m.ColumnName,15)</a> </dt>
+            #set($list0=$sqlhelper.GetColumns(" ChannelID=$channel.ChannelID AND Status=1 AND
+            ParentID=$m.ColumnID ORDER BY OrderBy ASC,AddTime ASC ")) #foreach($m0 in $list0)
+            <dd>
+                <a class="q-0 #if($m0.ColumnID==$column.ColumnID) on #end" #if($m0.LinkOutUrl!="") href="$m0.LinkOutUrl" target="_blank" #else href="/List.aspx?chid=$m0.ChannelID&cid=$m0.ColumnID"  #end
+                    title="$m0.ColumnName">$sqlhelper.Sub($m0.ColumnName,15)</a>
+            </dd>
+            #end
+        </dl>
+        #end
+    </div>
+</div>

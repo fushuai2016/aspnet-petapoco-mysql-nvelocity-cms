@@ -1,0 +1,120 @@
+.ellipsis {
+	overflow: hidden; white-space: nowrap; word-break: normal; text-overflow: ellipsis; _width: 100%;
+}
+.public-footer {
+	background: rgb(51, 52, 54); padding: 10px 0px; color: rgb(180, 180, 180);
+}
+.public-footer dl {
+	margin: 0px; padding: 0px;
+}
+.public-footer dt {
+	margin: 0px; padding: 0px;
+}
+.public-footer dd {
+	margin: 0px; padding: 0px;
+}
+.public-footer .clearfix {
+	
+}
+.public-footer .clearfix::before {
+	display: table; content: "";
+}
+.public-footer .clearfix::after {
+	display: table; content: "";
+}
+.public-footer .clearfix::after {
+	clear: both;
+}
+.public-footer .layout-inner {
+	margin: 0px auto; width: 1240px;
+}
+.public-footer .layout-inner a {
+	color: rgb(180, 180, 180); text-decoration: none;
+}
+.public-footer .layout-inner a:hover {
+	color: rgb(255, 255, 255);
+}
+.public-footer .icon {
+	margin: 0px 0px 5px; padding: 0px 0px 0px 35px; line-height: 19px; display: inline-block; position: relative;
+}
+.public-footer .icon .icon-i {
+	background: url("http://static.100.com/image/static/common/public_footer.png?v=1503121715") no-repeat; margin: -13px 0px 0px; left: 0px; top: 50%; width: 23px; height: 24px; position: absolute;
+}
+.public-footer .icon-weixin .icon-i {
+	background-position: -33px 0px;
+}
+.public-footer .map {
+	margin: 0px 0px 20px;
+}
+.public-footer .map .item {
+	margin: 0px 0px 0px 20px; width: 180px; float: left; _display: inline;
+}
+.public-footer .map dt {
+	margin: 14px 0px 25px; color: rgb(255, 255, 255); font-family: "Microsoft YaHei","ºÚÌå","Arial"; font-size: 18px;
+}
+.public-footer .map dd {
+	margin: 0px 0px 12px; font-size: 14px;
+}
+.public-footer .map .item-product {
+	margin: 0px; width: 400px;
+}
+.public-footer .map .item-product dl {
+	overflow: hidden; _zoom: 1;
+}
+.public-footer .map .item-product dd {
+	width: 140px; float: left;
+}
+.public-footer .map .item-bbs {
+	width: 250px;
+}
+.public-footer .map .item-contact {
+	width: 320px;
+}
+.public-footer .map .item-contact .email {
+	font-style: normal;
+}
+.public-footer .map .item-contact em {
+	font-style: normal;
+}
+.public-footer .map .item-contact .img {
+	margin: 4px 0px 0px;
+}
+.public-footer .map .item-contact .wb {
+	margin: 0px 0px 10px;
+}
+.public-footer .map .item-news {
+	width: 210px;
+}
+.public-footer .map .item-news dt {
+	margin-bottom: 21px;
+}
+.public-footer .map .item-news dd {
+	line-height: 1.8;
+}
+.public-footer .map .item-news .about {
+	margin: 0px 0px 30px;
+}
+.public-footer .map .item-news .news dd {
+	margin: 0px 0px 3px;
+}
+.public-footer .map .item-news .news dd p {
+	overflow: hidden; white-space: nowrap; word-break: normal; text-overflow: ellipsis; _width: 100%;
+}
+.public-footer .copyright {
+	padding: 18px 0px 5px; text-align: center; color: rgb(102, 102, 102); border-top-color: rgb(61, 63, 65); border-top-width: 1px; border-top-style: solid;
+}
+.public-footer .copyright p {
+	margin: 0px 0px 8px;
+}
+.public-footer .copyright a {
+	color: rgb(102, 102, 102);
+}
+.public-footer .copyright a:hover {
+	color: rgb(255, 255, 255);
+}
+.public-footer .copyright .split {
+	margin: 0px 5px;
+}
+.public-footer .copyright .page-yyfoot a b {
+	color: rgb(180, 180, 180);
+}

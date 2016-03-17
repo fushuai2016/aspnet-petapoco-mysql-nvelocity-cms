@@ -1,0 +1,990 @@
+.ellipsis {
+	overflow: hidden; white-space: nowrap; word-break: normal; text-overflow: ellipsis; _width: 100%;
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	background: rgb(249, 249, 249); color: rgb(112, 111, 111); font-family: Arial,Helvetica,simsun,"Microsoft YaHei",sans-serif; font-size: 12px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0px;
+}
+dl {
+	margin: 0px;
+}
+dd {
+	margin: 0px;
+}
+h1 {
+	margin: 0px;
+}
+h2 {
+	margin: 0px;
+}
+h3 {
+	margin: 0px;
+}
+h4 {
+	margin: 0px;
+}
+h5 {
+	margin: 0px;
+}
+h6 {
+	margin: 0px;
+}
+p {
+	margin: 0px;
+}
+form {
+	margin: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+i {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+img {
+	border: currentColor; vertical-align: middle;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style-type: none;
+}
+input {
+	vertical-align: middle;
+}
+:focus {
+	outline: 0px;
+}
+address {
+	font-style: normal; font-weight: normal;
+}
+cite {
+	font-style: normal; font-weight: normal;
+}
+code {
+	font-style: normal; font-weight: normal;
+}
+em {
+	font-style: normal; font-weight: normal;
+}
+th {
+	font-style: normal; font-weight: normal;
+}
+input {
+	font-size: 12px; font-weight: normal;
+}
+select {
+	font-size: 12px; font-weight: normal;
+}
+textarea {
+	font-size: 12px; font-weight: normal;
+}
+th {
+	font-size: 12px; font-weight: normal;
+}
+td {
+	font-size: 12px; font-weight: normal;
+}
+input {
+	vertical-align: middle;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	border-collapse: collapse;
+}
+table td {
+	empty-cells: show;
+}
+a {
+	color: rgb(67, 74, 84); text-decoration: none;
+}
+a:hover {
+	color: rgb(92, 131, 196); text-decoration: underline;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+.fb {
+	font-weight: bold;
+}
+.fi {
+	font-style: italic;
+}
+.linethrough {
+	text-decoration: line-through;
+}
+.f12px {
+	font-size: 12px;
+}
+.f14px {
+	font-size: 14px;
+}
+.f18px {
+	font-size: 18px;
+}
+.left {
+	float: left; display: inline;
+}
+.right {
+	float: right; display: inline;
+}
+.underline {
+	text-decoration: underline;
+}
+.blank5 {
+	height: 5px; overflow: hidden; clear: both; display: block;
+}
+.blank10 {
+	height: 10px; overflow: hidden; clear: both; display: block;
+}
+.blank15 {
+	height: 15px; overflow: hidden; clear: both; display: block;
+}
+.blank20 {
+	height: 20px; overflow: hidden; clear: both; display: block;
+}
+.blank24 {
+	height: 24px; overflow: hidden; clear: both; display: block;
+}
+.blank30 {
+	height: 30px; overflow: hidden; clear: both; display: block;
+}
+.blank35 {
+	height: 35px; overflow: hidden; clear: both; display: block;
+}
+.blank40 {
+	height: 40px; overflow: hidden; clear: both; display: block;
+}
+.blank60 {
+	height: 60px; overflow: hidden; clear: both; display: block;
+}
+.w865 {
+	margin: 0px auto; width: 865px;
+}
+.w960 {
+	margin: 0px auto; width: 960px;
+}
+.w980 {
+	margin: 0px auto; width: 980px;
+}
+.w1000 {
+	margin: 0px auto; width: 1000px;
+}
+.w1002 {
+	margin: 0px auto; width: 1002px;
+}
+.w1240 {
+	margin: 0px auto; width: 1240px;
+}
+.clearfix {
+	
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.red {
+	color: rgb(217, 105, 83);
+}
+.yellow {
+	color: rgb(238, 167, 75);
+}
+.green {
+	color: rgb(169, 212, 115);
+}
+.blue {
+	color: rgb(55, 95, 160);
+}
+.marl10 {
+	margin-left: 10px;
+}
+.marr10 {
+	margin-right: 10px;
+}
+.header {
+	background: rgb(253, 253, 253);
+}
+.header .logo {
+	width: 300px; height: 56px; padding-bottom: 10px; margin-top: 10px;
+}
+.header .logo .lg01 {
+	margin-right: 14px; float: left; display: inline;
+}
+.header .logo .lg02 {
+	margin-top: 13px; float: left; display: inline;
+}
+.header .h-top02 .logo {
+	height: 66px; margin-top: 0px;
+}
+.header .h-tr {
+	margin-top: 47px;
+}
+.header .h-tr span {
+	line-height: 16px; margin-right: 20px; float: left; display: inline;
+}
+.header .h-tr span i {
+	width: 16px; height: 16px; margin-right: 5px; float: left; display: inline;
+}
+.header .h-tr .download a:hover i {
+	background: url("../image/base.gif?v=1503121715") no-repeat -16px 0px;
+}
+.header .h-tr .download i {
+	background: url("../image/base.gif?v=1503121715") no-repeat;
+}
+.header .h-tr .forum a:hover i {
+	background: url("../image/base.gif?v=1503121715") no-repeat -48px 0px;
+}
+.header .h-tr .forum i {
+	background: url("../image/base.gif?v=1503121715") no-repeat -32px 0px;
+}
+.header .h-tr .login {
+	margin-right: 5px;
+}
+.header .h-tr .login a:hover i {
+	background: url("../image/base.gif?v=1503121715") no-repeat -80px 0px;
+}
+.header .h-tr .login i {
+	background: url("../image/base.gif?v=1503121715") no-repeat -64px 0px;
+}
+.header .h-tr .register {
+	margin-right: 0px;
+}
+.header .h-tr a {
+	color: rgb(160, 160, 160); display: inline-block;
+}
+.header .h-tr a:hover {
+	color: rgb(92, 131, 196); text-decoration: none;
+}
+.header .main-nav {
+	background: url("../image/main_nav.gif?v=1503121715") repeat-x; height: 46px; font-size: 14px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.header .main-nav li {
+	float: left; display: inline;
+}
+.header .main-nav .on a {
+	background: rgb(55, 95, 160); left: -1px; color: rgb(238, 167, 75); padding-top: 12px; font-weight: bold; text-decoration: none; border-top-color: rgb(85, 119, 174); border-top-width: 4px; border-top-style: solid; position: relative;
+}
+.header .main-nav .on a:hover {
+	padding-right: 22px;
+}
+.header .main-nav .on a:hover span {
+	padding-left: 0px;
+}
+.header .main-nav .home span {
+	background: url("../image/base.gif?v=1503121715") no-repeat -278px 0px; padding: 2px 0px 2px 25px;
+}
+.header .main-nav .home a {
+	left: 0px;
+}
+.header .main-nav .home a:hover {
+	left: 0px; padding-right: 22px;
+}
+.header .main-nav .home a:hover span {
+	padding-left: 25px;
+}
+.header .main-nav .last a {
+	
+}
+.header .main-nav a {
+	padding: 16px 22px 0px; height: 30px; color: rgb(255, 255, 255); overflow: hidden; float: left; display: inline;
+}
+.header .main-nav a:hover {
+	background: rgb(55, 95, 160); left: -1px; color: rgb(238, 167, 75); padding-top: 12px; padding-right: 21px; text-decoration: none; border-top-color: rgb(85, 119, 174); border-top-width: 4px; border-top-style: solid; position: relative;
+}
+.header .main-nav a:hover span {
+	padding-left: 1px;
+}
+.header .main-nav .search {
+	background: url("../image/base.gif?v=1503121715") no-repeat 0px -23px; width: 283px; height: 34px; margin-top: 8px;
+}
+.header .main-nav .search .s-text {
+	margin: 7px 0px 0px 10px; border: currentColor; width: 235px; height: 20px; color: rgb(204, 204, 204); line-height: 20px;
+}
+.header .main-nav .search .s-submit {
+	margin: 3px 4px 0px 0px; border: currentColor; width: 27px; height: 27px; cursor: pointer;
+}
+.header .main-nav .e-focus {
+	background: url("../image/base.gif?v=1503121715") no-repeat 0px -57px;
+}
+.header .main-nav .e-hover {
+	background: url("../image/base.gif?v=1503121715") no-repeat 0px -91px;
+}
+.footer {
+	padding: 30px 0px 50px; text-align: center; color: rgb(151, 161, 175); line-height: 24px; font-family: tahoma; border-top-color: rgb(193, 194, 196); border-top-width: 1px; border-top-style: dashed;
+}
+.footer a {
+	color: rgb(151, 161, 175);
+}
+.footer a:hover {
+	color: rgb(92, 131, 196);
+}
+.footer .e-contact {
+	margin-left: 10px; display: inline-block;
+}
+.edu-register .e-r-left {
+	width: 740px; border-right-color: rgb(227, 227, 227); border-right-width: 1px; border-right-style: solid;
+}
+.edu-register .e-r-right {
+	padding: 135px 0px 0px 35px; width: 224px; font-size: 14px;
+}
+.edu-register .e-r-right .register-btn {
+	background: rgb(66, 112, 187); padding: 9px 31px; color: rgb(222, 243, 252); font-size: 12px; display: inline-block;
+}
+.edu-register .e-r-right .register-btn:hover {
+	background: rgb(92, 131, 196); text-decoration: none;
+}
+.edu-register .e-calendar02 {
+	top: -344px;
+}
+.edu-register .e-calendar02-wrap-ielts .e-calendar-ielts {
+	top: -348px;
+}
+.e-r-bar {
+	background: url("../image/e_r_bar.gif?v=1503121715") no-repeat left bottom; padding: 10px 10px 10px 20px;
+}
+.e-r-bar h3 {
+	color: rgb(67, 74, 84); font-size: 14px; font-weight: bold;
+}
+.e-r-bar span {
+	margin-top: 5px;
+}
+.e-r-bar a {
+	color: rgb(66, 112, 187);
+}
+.e-r-bar a:hover {
+	color: rgb(92, 131, 196);
+}
+.e-r-success {
+	padding: 40px 0px 0px 350px;
+}
+.e-r-success .title {
+	color: rgb(67, 74, 84);
+}
+.e-r-success td {
+	padding: 10px 5px; font-size: 14px;
+}
+.e-r-success .r-tips {
+	background: url("../image/e_verify.gif?v=1503121715") no-repeat left -155px; padding: 2px 0px 2px 20px; color: rgb(255, 136, 0); display: none;
+}
+.e-text {
+	background: url("../image/e_text.gif?v=1503121715") no-repeat left top; height: 30px; padding-left: 10px; display: inline-block;
+}
+.e-text .e-text-i {
+	background: url("../image/e_text.gif?v=1503121715") no-repeat right top; height: 30px; padding-right: 10px; display: inline-block;
+}
+.e-text .e-text-i input {
+	border: currentColor; width: 185px; height: 30px; color: rgb(204, 204, 204); line-height: 30px; font-size: 14px;
+}
+.e-text .e-text-i i {
+	background: url("../image/e_cal.gif?v=1503121715") no-repeat; width: 17px; height: 17px; margin-bottom: -5px; display: inline-block; cursor: pointer;
+}
+.e-select {
+	position: relative;
+}
+.e-select span {
+	background: url("../image/e_input.gif?v=1503121715") repeat-x rgb(255, 255, 255); padding: 0px 10px; border: 1px solid rgb(204, 204, 204); height: 28px; color: rgb(204, 204, 204); line-height: 28px; overflow: hidden; float: left; display: inline;
+}
+.e-select .arrow {
+	background: url("../image/e_input.gif?v=1503121715") repeat-x rgb(255, 255, 255); padding: 0px 10px; border: 1px solid rgb(204, 204, 204); height: 28px; color: rgb(204, 204, 204); line-height: 28px; overflow: hidden; float: left; display: inline;
+}
+.e-select span {
+	width: 81px;
+}
+.e-select .arrow {
+	padding: 0px; width: 28px; text-align: center; border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.e-select .arrow i {
+	background: url("../image/base_edu.gif?v=1503121715") no-repeat -273px -173px rgb(255, 255, 255); width: 10px; height: 7px; overflow: hidden; margin-top: 10px; display: inline-block; cursor: pointer;
+}
+.e-select .on i {
+	background: url("../image/base_edu.gif?v=1503121715") no-repeat -273px -181px rgb(255, 255, 255);
+}
+.e-select ul {
+	background: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); left: 0px; top: 29px; width: 130px; line-height: 24px; display: none; position: absolute;
+}
+.e-select ul a {
+	height: 24px; line-height: 24px; padding-left: 10px; display: block;
+}
+.e-select ul a:hover {
+	background: rgb(92, 131, 196); color: rgb(255, 255, 255); text-decoration: none;
+}
+.m-select span {
+	background: rgb(255, 255, 255); border: 1px solid rgb(205, 215, 228); color: rgb(160, 160, 160);
+}
+.m-select .arrow {
+	background: rgb(255, 255, 255); border: 1px solid rgb(205, 215, 228); color: rgb(160, 160, 160);
+}
+.m-select .arrow {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.m-select ul {
+	border: 1px solid rgb(205, 215, 228);
+}
+.e-btn {
+	background: rgb(66, 112, 187); padding: 9px 31px; color: rgb(222, 243, 252); display: inline-block;
+}
+.e-btn:hover {
+	background: rgb(92, 131, 196); color: rgb(255, 255, 255); text-decoration: none;
+}
+.e-btn02 {
+	background: rgb(15, 124, 59); padding: 5px 31px; color: rgb(255, 255, 255); display: inline-block;
+}
+.e-btn02:hover {
+	background: rgb(31, 140, 75); color: rgb(255, 255, 255); text-decoration: none;
+}
+.e-btn-dis {
+	background: rgb(223, 224, 226); color: rgb(112, 111, 111); cursor: auto;
+}
+.e-btn-dis:hover {
+	background: rgb(223, 224, 226); color: rgb(112, 111, 111);
+}
+.header .edu-register-link a:hover {
+	text-decoration: underline;
+}
+.edu-header {
+	background: rgb(51, 52, 54); height: 45px; color: rgb(205, 205, 205); line-height: 45px;
+}
+.edu-header h2 {
+	margin-top: 9px;
+}
+.edu-header .edu-nav {
+	margin-left: 19px;
+}
+.edu-header .edu-nav li {
+	margin: 0px 16px 0px 15px; float: left; display: inline;
+}
+.edu-header .edu-nav .more {
+	position: relative;
+}
+.edu-header .edu-nav .more .more-a {
+	background: url("../image/edu_arrows.gif?v=1503121715") no-repeat 32px; width: 50px; display: inline-block;
+}
+.edu-header .edu-nav a {
+	color: rgb(205, 205, 205);
+}
+.edu-header .edu-nav .more-cont {
+	left: -30px; top: 45px; display: none; position: absolute;
+}
+.edu-header .edu-nav .more-cont a {
+	background: rgb(51, 52, 54); width: 85px; height: 30px; text-align: center; color: rgb(205, 205, 205); line-height: 30px; display: block;
+}
+.edu-header .edu-nav .more-cont a:hover {
+	background: rgb(99, 193, 95); color: rgb(255, 255, 255); text-decoration: none;
+}
+.edu-header .e-h-r span {
+	padding: 0px 15px; display: inline-block;
+}
+.edu-header .e-h-r .s-last {
+	margin-right: 10px;
+}
+.edu-header .e-h-r .login-a {
+	color: rgb(74, 163, 71);
+}
+.edu-header .e-h-r .login-user {
+	padding: 0px 10px;
+}
+.edu-header .e-h-r .login-user a {
+	color: rgb(205, 205, 205);
+}
+.edu-header .e-h-r .login-user a:hover {
+	color: rgb(74, 163, 71); text-decoration: none;
+}
+.edu-header .e-h-r a {
+	color: rgb(205, 205, 205);
+}
+.edu-header a:hover {
+	color: rgb(74, 163, 71); text-decoration: none;
+}
+.e-404 {
+	background: url("../../image/e_404.gif?v=1503121715") no-repeat; margin: 109px auto 0px; padding: 136px 0px 100px 240px; width: 330px; color: rgb(151, 161, 175); font-family: "Microsoft YaHei"; font-size: 18px;
+}
+.e-404 .p01 {
+	font-size: 24px;
+}
+.e-404 .p02 {
+	padding-bottom: 4px;
+}
+.e-404 a {
+	color: rgb(104, 154, 194); margin-left: 5px;
+}
+.layout-inner {
+	margin: 0px auto; width: 1240px;
+}
+.page-header {
+	background: rgb(255, 255, 255);
+}
+.page-header .layout-inner {
+	height: 78px; position: relative;
+}
+.page-header .logo {
+	margin: 10px 34px 0px 0px; float: left;
+}
+.page-header .logo img {
+	vertical-align: top;
+}
+.page-header .page-name {
+	font: 36px/78px "Microsoft YaHei", "ºÚÌå", "Arial"; color: rgb(53, 184, 136); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.dialog-wrap {
+	background: rgb(253, 253, 253); border: 1px solid rgb(235, 235, 235); overflow: hidden; display: none; position: fixed; _position: absolute;
+}
+.dialog-wrap .dialog-title {
+	height: 37px; border-bottom-color: rgb(241, 241, 241); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.dialog-wrap .dialog-title .dtc {
+	margin: 0px 4px; height: 37px; color: rgb(15, 124, 59); line-height: 37px; padding-left: 10px; font-size: 14px;
+}
+.dialog-wrap .dialog-title .dtl {
+	left: 0px; top: 0px; width: 5px; height: 37px; position: absolute;
+}
+.dialog-wrap .dialog-title .dtr {
+	top: 0px; width: 5px; height: 37px; right: 0px; position: absolute;
+}
+.dialog-wrap .dialog-title .dialog-close {
+	background: url("../image/dialog_close.gif?v=1503121715") no-repeat center; top: 11px; width: 15px; height: 15px; right: 9px; display: block; position: absolute; cursor: pointer;
+}
+.dialog-wrap .dialog-content {
+	border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+.edu-scroll {
+	width: 78px; right: 20px; bottom: 60px; position: fixed; z-index: 3; _position: absolute;
+}
+.edu-scroll a {
+	width: 78px; height: 78px; display: block; transition: all 200ms ease; -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; -ms-transition: all 200ms ease;
+}
+.edu-scroll .go-top {
+	background: url("../image/i_top.png?v=1503121715") no-repeat; height: 80px;
+}
+.edu-scroll .go-top:hover {
+	background-position: -80px 0px;
+}
+.edu-scroll .edu-webim {
+	background: url("../image/i_top.png?v=1503121715") no-repeat 0px -80px;
+}
+.edu-scroll .edu-webim:hover {
+	background-position: -79px -80px;
+}
+.edu-scroll-v2 {
+	width: 78px; right: 20px; bottom: 60px; font-family: "Microsoft YaHei"; position: fixed; z-index: 3; _position: absolute;
+}
+.edu-scroll-v2 span {
+	display: block;
+}
+.edu-scroll-v2 i {
+	display: block;
+}
+.edu-scroll-v2 b {
+	display: block;
+}
+.edu-scroll-v2 a {
+	display: block;
+}
+.edu-scroll-v2 em {
+	display: block;
+}
+.edu-scroll-v2 a {
+	width: 71px; height: 71px; cursor: pointer;
+}
+.edu-scroll-v2 .go-top .gt-s-wrap {
+	transition: all 200ms ease; -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; -ms-transition: all 200ms ease;
+}
+.edu-scroll-v2 .edu-webim .w-span i {
+	transition: all 200ms ease; -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; -ms-transition: all 200ms ease;
+}
+.edu-scroll-v2 .go-top {
+	width: 68px; height: 68px; overflow: hidden; margin-top: 6px;
+}
+.edu-scroll-v2 .go-top .gt-s-wrap {
+	width: 138px;
+}
+.edu-scroll-v2 .go-top .gt-span1 {
+	width: 68px; height: 68px; overflow: hidden; float: left; display: inline;
+}
+.edu-scroll-v2 .go-top .gt-span2 {
+	width: 68px; height: 68px; overflow: hidden; float: left; display: inline;
+}
+.edu-scroll-v2 .go-top .gt-span1 {
+	background: url("../image/i_top.png?v=1503121715") no-repeat -6px -3px;
+}
+.edu-scroll-v2 .go-top .gt-span2 {
+	padding: 16px 15px 0px; width: 38px; height: 52px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 16px; background-color: rgb(49, 176, 102);
+}
+.edu-scroll-v2 .go-top:hover {
+	text-decoration: none;
+}
+.edu-scroll-v2 .go-top:hover .gt-s-wrap {
+	margin-left: -68px;
+}
+.edu-scroll-v2 .edu-webim .w-span {
+	width: 71px; height: 71px; color: rgb(49, 176, 102); line-height: 18px; font-size: 16px; position: relative;
+}
+.edu-scroll-v2 .edu-webim .w-span em {
+	background: url("../image/webim_bg.png?v=1503121715") no-repeat -55px 0px; left: 0px; top: -3px; width: 16px; height: 16px; overflow: hidden; display: none; position: absolute;
+}
+.edu-scroll-v2 .edu-webim .w-span i {
+	background: url("../image/webim_bg.png?v=1503121715") no-repeat; left: 0px; top: 0px; width: 51px; height: 71px; margin-right: 3px; float: left; display: inline; position: absolute;
+}
+.edu-scroll-v2 .edu-webim .w-span b {
+	top: 0px; width: 19px; height: 71px; right: 0px; font-weight: normal; position: absolute; -webkit-text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0; -moz-text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0; text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
+}
+.edu-scroll-v2 .edu-webim:hover {
+	text-decoration: none;
+}
+.edu-scroll-v2 .edu-webim:hover em {
+	display: block;
+}
+.edu-scroll-v2 .edu-webim:hover i {
+	left: -40px; _left: 0;
+}
+.edu-scroll-v2 .edu-webim:hover b {
+	padding: 16px 15px 0px; width: 41px; height: 55px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; background-color: rgb(49, 176, 102); -webkit-text-shadow: none; -moz-text-shadow: none; text-shadow: none; _color: #31b066;
+}
+
+body .xb-dialog {
+	border: 1px solid rgb(136, 136, 136);
+}
+body .xb-dialog .dialog-title {
+	background: rgb(116, 186, 54); border: currentColor;
+}
+body .xb-dialog .dialog-title .dtc {
+	color: rgb(255, 255, 255);
+}
+
+body .xb-dialog .xb-prize-desc {
+	margin: 30px 30px 0px; text-align: center; color: rgb(153, 153, 153);
+}
+body .xb-dialog .xb-prize-desc .tit {
+	margin: 0px 0px 6px; color: rgb(51, 51, 51); font-size: 18px; font-weight: bold;
+}
+body .xb-dialog .xb-prize-desc .ext {
+	margin: 15px 0px 0px;
+}
+body .xb-dialog .xb-prize-desc .ext a {
+	color: rgb(107, 177, 46);
+}
+body .xb-dialog .xb-yy-bear {
+	margin: 50px 0px 0px;
+}
+body .xb-dialog .xb-t-shirt {
+	margin: 50px 0px 0px;
+}
+body .xb-dialog .xb-d-action {
+	margin: 30px 0px; text-align: center;
+}
+body .xb-dialog .xb-share-cont {
+	overflow: hidden; _zoom: 1;
+}
+body .xb-dialog .xb-share-cont .txt {
+	margin: 0px 10px 0px 80px; color: rgb(153, 153, 153); line-height: 28px; float: left;
+}
+body .xb-dialog .xb-d-share {
+	float: left;
+}
+body .xb-dialog .xb-d-btn {
+	background: rgb(116, 186, 54); padding: 0px 25px; border-radius: 3px; border: currentColor; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-size: 14px; display: inline-block; cursor: pointer;
+}
+body .xb-dialog .xb-d-btn:hover {
+	text-decoration: none;
+}
+body .xb-dialog .xb-form {
+	margin: 20px 0px 0px 50px; position: relative; _zoom: 1;
+}
+body .xb-dialog .xb-form .row {
+	padding: 0px 0px 6px 77px; position: relative; _zoom: 1;
+}
+body .xb-dialog .xb-form .label {
+	left: 0px; top: 0px; width: 60px; text-align: right; color: rgb(51, 51, 51); line-height: 30px; position: absolute;
+}
+body .xb-dialog .xb-form .ipt-txt {
+	padding: 5px; border: 1px solid rgb(232, 232, 232); width: 222px; height: 18px; line-height: 18px;
+}
+body .xb-dialog .xb-form .xb-d-action {
+	text-align: left; margin-top: 24px;
+}
+body .xb-dialog .xb-form .xb-d-btn {
+	padding: 0px; width: 191px;
+}
+body .xb-dialog .xb-form-tips {
+	margin: 50px 50px 40px; text-align: left; line-height: 1.8;
+}
+body .xb-dialog .xb-no-prize {
+	margin: 50px 50px 40px; text-align: left; line-height: 1.8;
+}
+body .xb-dialog .xb-form-tips .desc {
+	margin: 0px 0px 10px; color: rgb(51, 51, 51);
+}
+body .xb-dialog .xb-no-prize .desc {
+	margin: 0px 0px 10px; color: rgb(51, 51, 51);
+}
+body .xb-dialog .xb-form-tips .split {
+	margin: 0px 10px; color: rgb(153, 153, 153);
+}
+body .xb-dialog .xb-no-prize .split {
+	margin: 0px 10px; color: rgb(153, 153, 153);
+}
+body .xb-dialog .xb-form-tips a {
+	color: rgb(105, 172, 47);
+}
+body .xb-dialog .xb-no-prize a {
+	color: rgb(105, 172, 47);
+}
+body .xb-dialog .xb-form-tips a i {
+	font-family: simsun;
+}
+body .xb-dialog .xb-no-prize a i {
+	font-family: simsun;
+}
+body .xb-dialog .xb-no-login .tit {
+	margin: 0px 0px 15px;
+}
+body .xb-dialog .xb-no-login .step {
+	margin: 0px 0px 10px 20px; position: relative;
+}
+body .xb-dialog .xb-no-login .step .line {
+	background: rgb(216, 216, 216); left: 0px; top: 12px; width: 370px; height: 1px; overflow: hidden; position: absolute; z-index: 0;
+}
+body .xb-dialog .xb-no-login ul {
+	overflow: hidden; position: relative; z-index: 5; _zoom: 1;
+}
+body .xb-dialog .xb-no-login li {
+	margin: 0px 25px 0px 0px; float: left; white-space: nowrap;
+}
+body .xb-dialog .xb-no-login li p {
+	color: rgb(153, 153, 153);
+}
+body .xb-dialog .xb-no-login .num {
+	background: rgb(116, 186, 54); margin: 0px auto 4px; border-radius: 100em; border: 4px solid rgb(255, 255, 255); width: 18px; height: 18px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-size: 14px; display: block;
+}
+body .xb-dialog .xb-no-login a {
+	color: rgb(105, 172, 47);
+}
+body .xb-dialog .xb-no-login a i {
+	font-family: simsun;
+}
+.xb-d-share li {
+	margin: 0px 2px; float: left;
+}
+
+.xb-d-share .shareQzone a {
+	background-position: -40px 0px;
+}
+.xb-d-share .shareQQ a {
+	background-position: -80px 0px;
+}
+.xb-d-share .shareRR a {
+	background-position: -120px 0px;
+}
+
+.hallowmas-start .start {
+	left: 39px; top: 82px; width: 88px; height: 22px; position: absolute;
+}
+.hallowmas-start .details {
+	left: 39px; top: 82px; width: 88px; height: 22px; position: absolute;
+}
+.hallowmas-start .details {
+	left: 136px; width: 78px;
+}
+body .hallowmas-dialog {
+	border: currentColor; font-family: "Microsoft YaHei","ºÚÌå","Arial";
+}
+body .hallowmas-dialog .dialog-title {
+	border: currentColor; height: 0px; z-index: 5;
+}
+body .hallowmas-dialog .dialog-title .dtl {
+	display: none;
+}
+body .hallowmas-dialog .dialog-title .dtc {
+	display: none;
+}
+
+body .hallowmas-dialog .sign {
+	left: 35px; top: 100px; position: absolute;
+}
+body .hallowmas-dialog .tit {
+	left: 193px; top: 27px; text-indent: -9999em; overflow: hidden; position: absolute;
+}
+body .hallowmas-dialog .cont-box {
+	left: 160px; top: 66px; width: 411px; height: 194px; position: absolute;
+}
+body .hallowmas-dialog .share-cont {
+	left: 160px; top: 268px; position: absolute;
+}
+body .hallowmas-dialog .share-cont .label {
+	color: rgb(103, 87, 59); line-height: 23px; font-size: 14px; float: left;
+}
+body .hallowmas-dialog .share-cont .share {
+	float: left;
+}
+body .hallowmas-dialog .share-cont ul {
+	overflow: hidden; _zoom: 1;
+}
+body .hallowmas-dialog .share-cont li {
+	margin: 0px 0px 0px 13px; height: 23px; float: left;
+}
+
+body .hallowmas-dialog .share-cont .shareSina a {
+	margin: 1px 0px 0px; width: 27px; height: 21px;
+}
+body .hallowmas-dialog .share-cont .shareQzone a {
+	background-position: -37px 0px; width: 24px; height: 23px;
+}
+body .hallowmas-dialog .share-cont .shareQQ a {
+	background-position: -71px 0px; width: 23px; height: 22px;
+}
+body .hallowmas-dialog .share-cont .shareRR a {
+	background-position: -104px 0px; margin: 2px 0px 0px; width: 20px; height: 20px;
+}
+body .hallowmas-dialog .hallowmas-btn {
+	background: rgb(75, 159, 42); padding: 0px 35px; border-radius: 100em; border: currentColor; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 16px; display: inline-block; cursor: pointer;
+}
+body .hallowmas-dialog .desc {
+	color: rgb(181, 148, 89);
+}
+body .hallowmas-dialog .tips-cont {
+	padding: 37px 0px 0px 75px;
+}
+body .hallowmas-dialog .tips-cont .desc {
+	margin: 10px 0px 0px;
+}
+body .hallowmas-dialog .tips-cont .action {
+	margin: 20px 0px 0px 40px;
+}
+body .hallowmas-dialog .tips-tit {
+	padding: 0px 0px 0px 40px; height: 30px; color: rgb(51, 51, 51); line-height: 30px; font-size: 22px; position: relative;
+}
+
+body .hallowmas-dialog .tips-err {
+	background-position: -40px -33px;
+}
+
+body .hallowmas-dialog-s1 .sign {
+	width: 169px; height: 169px;
+}
+body .hallowmas-dialog-s1 .tit {
+	background-position: -169px 0px; width: 333px; height: 38px;
+}
+body .hallowmas-dialog-s1 .cont {
+	padding: 36px 0px 0px 60px;
+}
+body .hallowmas-dialog-s1 .word {
+	color: rgb(51, 51, 51); font-size: 22px;
+}
+body .hallowmas-dialog-s1 .word-form {
+	background: rgb(251, 242, 225); border-radius: 100em; width: 272px; height: 29px; border-top-color: rgb(213, 189, 146); border-top-width: 1px; border-top-style: solid; box-shadow: inset 0px 1px 0px #eee0c7;
+}
+body .hallowmas-dialog-s1 .input {
+	float: left; position: relative;
+}
+body .hallowmas-dialog-s1 .input label {
+	left: 20px; top: 0px; color: rgb(213, 187, 138); line-height: 30px; font-size: 14px; position: absolute; z-index: 5;
+}
+body .hallowmas-dialog-s1 .input input {
+	font: 14px/19px Arial, Helvetica, simsun, "Microsoft YaHei", sans-serif; margin: 0px 0px 0px 15px; padding: 5px; border: currentColor; width: 155px; height: 19px; color: rgb(51, 51, 51); position: relative; z-index: 0; font-size-adjust: none; font-stretch: normal;
+}
+body .hallowmas-dialog-s1 .hallowmas-btn {
+	margin: -1px 0px 0px; padding: 0px; width: 82px; text-align: center; float: right;
+}
+body .hallowmas-dialog-s1 .desc {
+	margin: 10px 0px 0px 5px;
+}
+
+body .hallowmas-dialog-s2 .sign {
+	width: 171px; height: 180px;
+}
+body .hallowmas-dialog-s2 .tit {
+	background-position: -181px 0px; width: 378px; height: 33px;
+}
+
+body .hallowmas-dialog-s3 .sign {
+	left: 2px; top: 45px; width: 235px; height: 219px;
+}
+body .hallowmas-dialog-s3 .tit {
+	background-position: -245px 0px; width: 212px; height: 33px;
+}
+body .hallowmas-dialog-s3 .h-form {
+	padding: 10px 0px 0px 20px; position: relative; _zoom: 1;
+}
+body .hallowmas-dialog-s3 .h-form .row {
+	padding: 0px 0px 6px 77px; position: relative; _zoom: 1;
+}
+body .hallowmas-dialog-s3 .h-form .label {
+	left: 0px; top: 0px; width: 60px; text-align: right; color: rgb(51, 51, 51); line-height: 25px; position: absolute;
+}
+body .hallowmas-dialog-s3 .h-form .ipt-txt {
+	padding: 5px; border: 1px solid rgb(173, 137, 92); width: 222px; height: 15px; line-height: 15px;
+}
+body .hallowmas-dialog-s3 .h-form .h-action {
+	padding: 0px 0px 0px 140px;
+}
+body .hallowmas-dialog-s3 .h-form .hallowmas-btn {
+	padding: 0px; width: 92px; text-align: center;
+}
+
+body .hallowmas-dialog-s4 .sign {
+	width: 170px; height: 177px;
+}
+body .hallowmas-dialog-s4 .tit {
+	background-position: -180px 0px; width: 278px; height: 33px;
+}
+body .hallowmas-dialog-s4 .tips-cont {
+	padding-top: 50px;
+}
+body .hallowmas-dialog-s4 .tips-cont .action {
+	margin: 30px 0px 0px 50px;
+}
+
+body .hallowmas-dialog-s5 .sign {
+	width: 169px; height: 169px;
+}
+body .hallowmas-dialog-s5 .tit {
+	background-position: -179px 0px; width: 368px; height: 32px;
+}
+body .hallowmas-dialog-s5 .tips-cont .desc {
+	margin-left: 40px;
+}
+body .hallowmas-dialog-s6 .sign {
+	width: 169px; height: 179px;
+}
+body .hallowmas-dialog-s6 .tit {
+	background-position: -179px 0px; width: 278px; height: 33px;
+}

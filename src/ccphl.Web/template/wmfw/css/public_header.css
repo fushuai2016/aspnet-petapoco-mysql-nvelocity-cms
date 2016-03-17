@@ -1,0 +1,261 @@
+.ellipsis {
+	overflow: hidden; white-space: nowrap; word-break: normal; text-overflow: ellipsis; _width: 100%;
+}
+.public-header {
+	background: rgb(51, 52, 54); font: 12px/1.5 Arial, Helvetica, "Microsoft YaHei", simsun, sans-serif; color: rgb(205, 205, 205); position: relative; z-index: 50; font-size-adjust: none; font-stretch: normal; _zoom: 1;
+}
+.public-header ul {
+	margin: 0px; padding: 0px;
+}
+.public-header li {
+	margin: 0px; padding: 0px;
+}
+.public-header p {
+	margin: 0px; padding: 0px;
+}
+.public-header h3 {
+	margin: 0px; padding: 0px;
+}
+.public-header a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.public-header a:hover {
+	color: rgb(106, 184, 102);
+}
+.public-header ul {
+	list-style: none;
+}
+.public-header .layout-inner {
+	margin: 0px auto; width: 1240px; height: 40px;
+}
+.public-header .ico-home {
+	background: url("http://static.100.com/image/header/header.png?v=1503121715") no-repeat;
+}
+.public-header .c-a-wrap .arrow {
+	background: url("http://static.100.com/image/header/header.png?v=1503121715") no-repeat;
+}
+.public-header .ico-home {
+	margin: 12px 10px 0px 20px; width: 18px; height: 15px; text-indent: -9999em; overflow: hidden; float: left;
+}
+.public-header .ico-home:hover {
+	background-position: -28px 0px;
+}
+.public-header .nav {
+	float: left;
+}
+.public-header .nav .item {
+	float: left;
+}
+.public-header .c-a-wrap {
+	position: relative;
+}
+.public-header .c-a-wrap .sort {
+	padding: 0px 24px 0px 10px; line-height: 40px; overflow: hidden; display: block;
+}
+.public-header .c-a-wrap .sort a {
+	color: rgb(203, 203, 203);
+}
+.public-header .c-a-wrap .arrow {
+	background-position: -16px -24px; top: 18px; width: 6px; height: 3px; right: 11px; overflow: hidden; position: absolute; z-index: 10;
+}
+.public-header .caw-show {
+	background: rgb(255, 255, 255); left: 0px; top: 40px; width: 100%; display: none; position: absolute; z-index: 5; min-width: 82px; _width: 82px;
+}
+.public-header .caw-show li {
+	white-space: nowrap; position: relative;
+}
+.public-header .caw-show li a {
+	line-height: 26px; text-indent: 9px; display: block;
+}
+.public-header .caw-show li a:hover {
+	background: rgb(99, 193, 95); color: rgb(255, 255, 255); text-decoration: none;
+}
+.public-header .caw-show .news-flag {
+	right: 8px;
+}
+.public-header .caw-show-cont {
+	border: 1px solid rgb(99, 193, 95);
+}
+.public-header .c-a-wrap-hover .sort {
+	background: rgb(255, 255, 255); border-width: 0px 1px; border-style: solid; border-color: rgb(99, 193, 95); margin: 0px 0px -1px; padding: 0px 23px 1px 9px; color: rgb(106, 184, 102); position: relative; z-index: 10; _float: left;
+}
+.public-header .c-a-wrap-hover .sort a {
+	color: rgb(106, 184, 102);
+}
+.public-header .c-a-wrap-hover .sort .news-flag {
+	right: 19px;
+}
+.public-header .c-a-wrap-hover .caw-show {
+	display: block;
+}
+.public-header .c-a-wrap-hover .arrow {
+	background-position: 0px -24px;
+}
+.public-header .item-course .caw-show {
+	width: 92px;
+}
+.public-header .user-info-cont {
+	float: right;
+}
+.public-header .user-info-cont .split {
+	margin: 0px 10px 0px 20px; line-height: 40px; float: left;
+}
+.public-header .user-info-cont .c-a-wrap {
+	float: left;
+}
+.public-header .user-info {
+	float: left;
+}
+.public-header .user-info .desc {
+	margin: 0px 0px 0px 20px; line-height: 40px; float: left;
+}
+.public-header .user-info .caw-show {
+	_width: 150px;
+}
+.public-header .user-pic {
+	margin: 7px 0px 0px; float: left;
+}
+.public-header .user-pic img {
+	width: 25px; height: 25px;
+}
+.public-header .login {
+	line-height: 40px; float: left;
+}
+.public-header .login a {
+	margin: 0px 0px 0px 20px; color: rgb(203, 203, 203);
+}
+.public-header .login .reg {
+	float: left;
+}
+.public-header .login-cont {
+	line-height: 1.5;
+}
+.public-header .login-cont .caw-show {
+	left: -60px; width: auto;
+}
+.public-header .login-cont .caw-show-cont {
+	text-align: center; white-space: nowrap;
+}
+.public-header .login-cont .desc {
+	margin: 10px 15px; padding: 0px 0px 3px; color: rgb(83, 83, 83); font-size: 14px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.public-header .login-cont .action {
+	margin: 0px 8px 15px; color: rgb(51, 51, 51);
+}
+.public-header .login-cont .action p {
+	margin-top: 5px;
+}
+.public-header .login-cont .action .p1 {
+	text-align: right; padding-right: 7px; margin-top: 10px;
+}
+.public-header .login-cont .action .by-fkbg {
+	background: rgb(254, 126, 0); margin: 0px 7px; width: 111px; height: 32px; color: rgb(255, 255, 255); line-height: 32px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.public-header .login-cont .action .by-100 {
+	background: rgb(254, 126, 0); margin: 0px 7px; width: 111px; height: 32px; color: rgb(255, 255, 255); line-height: 32px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.public-header .login-cont .action .by-fkbg:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.public-header .login-cont .action .by-100:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.public-header .login-cont .action .by-100 {
+	background: rgb(78, 180, 130); margin-left: 10px;
+}
+.public-header .login-cont .action .a-default {
+	margin: 0px; color: rgb(51, 51, 51); text-decoration: underline;
+}
+.public-header .login-cont .action .a-default:hover {
+	color: rgb(62, 171, 32);
+}
+.public-header .site-map .caw-show {
+	left: auto; width: 371px; right: 0px;
+}
+.public-header .site-map .caw-show-cont {
+	overflow: hidden; _zoom: 1;
+}
+.public-header .site-map .map-tab {
+	margin: 8px 0px 0px; height: 32px; line-height: 32px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 2px; border-bottom-style: solid; _overflow: hidden;
+}
+.public-header .site-map .map-tab .map-t-item {
+	width: 122px; height: 32px; text-align: center; color: rgb(102, 102, 102); font-weight: bold; float: left;
+}
+.public-header .site-map .map-tab .map-t-item a {
+	color: rgb(102, 102, 102);
+}
+.public-header .site-map .map-tab .map-t-item a:hover {
+	color: rgb(99, 193, 95); text-decoration: none;
+}
+.public-header .site-map .map-tab .current {
+	color: rgb(99, 193, 95); border-bottom-color: rgb(99, 193, 95); border-bottom-width: 2px; border-bottom-style: solid; position: relative;
+}
+.public-header .site-map .map-tab .current .t-arrow {
+	border-width: 3px; border-style: dashed dashed solid; border-color: transparent transparent rgb(99, 193, 95); margin: 0px 0px 0px -3px; left: 50%; width: 0px; height: 0px; bottom: 0px; overflow: hidden; position: absolute;
+}
+.public-header .site-map .map-tab .t-split {
+	background: rgb(221, 221, 221); margin: 10px 0px 0px; width: 1px; height: 12px; overflow: hidden; float: left;
+}
+.public-header .site-map .map-item {
+	margin: -1px 0px 0px; padding: 18px 13px 16px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.public-header .site-map .map-item .link {
+	margin: 0px -3px;
+}
+.public-header .site-map .map-item a {
+	margin: 12px 3px 0px 0px; padding: 0px 5px; line-height: 16px; display: inline-block;
+}
+.public-header .site-map .map-item a:hover {
+	background: rgb(99, 193, 95); color: rgb(255, 255, 255); text-decoration: none;
+}
+.public-header .site-map .map-item h3 {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.public-header .site-map .map-item h3 a {
+	margin: 0px;
+}
+.public-header .news-flag {
+	background: url("http://static.100.com/image/header/news_flag.png?v=1503121715") no-repeat; top: 9px; width: 8px; height: 8px; right: 20px; overflow: hidden; position: absolute;
+}
+.public-header .loading {
+	background: url("http://static.100.com/image/header/loading.gif?v=1503121715") no-repeat; margin: 8px 0px 0px; width: 25px; height: 25px; float: left;
+}
+body .public-header-dialog-wrap {
+	background: rgb(253, 253, 253); border: 1px solid rgb(235, 235, 235); overflow: hidden; display: none; position: fixed; _position: absolute;
+}
+body .public-header-dialog-wrap .dialog-title {
+	background: rgb(255, 255, 255); height: 37px; border-bottom-color: rgb(241, 241, 241); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+body .public-header-dialog-wrap .dialog-title .dtc {
+	margin: 0px 4px; height: 37px; color: rgb(15, 124, 59); line-height: 37px; padding-left: 10px; font-size: 14px;
+}
+body .public-header-dialog-wrap .dialog-title .dtl {
+	left: 0px; top: 0px; width: 5px; height: 37px; position: absolute;
+}
+body .public-header-dialog-wrap .dialog-title .dtr {
+	top: 0px; width: 5px; height: 37px; right: 0px; position: absolute;
+}
+body .public-header-dialog-wrap .dialog-title .dialog-close {
+	background: url("http://static.100.com/image/edu/dialog_close.gif?v=1503121715") no-repeat center; top: 11px; width: 15px; height: 15px; right: 9px; display: block; position: absolute; cursor: pointer;
+}
+body .public-header-dialog-wrap .dialog-title .dialog-close:hover {
+	background: url("http://static.100.com/image/edu/dialog_close.gif?v=1503121715") no-repeat center; top: 11px; width: 15px; height: 15px; right: 9px; display: block; position: absolute; cursor: pointer;
+}
+body .public-header-dialog-wrap .dialog-content {
+	border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+.public-header-dialog {
+	text-align: center; line-height: 22px; font-size: 14px;
+}
+.public-header-dialog .phd-cont {
+	margin: 0px 22px; padding: 50px 0px 30px; color: rgb(83, 83, 83); border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.public-header-dialog .phd-btn-wrap {
+	padding: 20px 0px;
+}
+.public-header-dialog .phd-btn-wrap .phd-btn {
+	background: rgb(116, 186, 54); font: 16px/40px "Î¢ÈíÑÅºÚ"; padding: 0px 22px; border-radius: 2px; color: rgb(255, 255, 255); text-decoration: none; display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.public-header-dialog .phd-btn-wrap .phd-btn:hover {
+	color: rgb(255, 255, 255);
+}

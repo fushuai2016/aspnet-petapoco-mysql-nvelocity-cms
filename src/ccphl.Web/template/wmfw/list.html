@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+ <head> 
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> 
+  <meta name="viewport" content="width=1240" />
+  <title>$!column.ColumnName $!channel.ChannelName - $site.SiteName</title> 
+  <link rel="stylesheet" type="text/css" href="$site.TemplatePath/css/base.css" /> 
+  <link rel="stylesheet" type="text/css" href="$site.TemplatePath/css/base(1).css" /> 
+  <link rel="stylesheet" type="text/css" href="$site.TemplatePath/css/public_header.css" /> 
+  <link rel="stylesheet" type="text/css" href="$site.TemplatePath/css/public_footer.css" />
+  <script type="text/javascript" src="$site.TemplatePath/js/jquery.js"></script>    
+  <script type="text/javascript" src="$site.TemplatePath/js/index.js"></script> 
+ </head> 
+ <body> 
+  <div class="event-wrap">
+   
+   #parse("head.html")
+
+   <div class="faq-container"> 
+    <div class="layout-inner clearfix"> 
+     <div class="faq-main"> 
+      <div class="faq-main-in">
+       <!--问答列表--> 
+       <div id="faqList" class="faq-list"> 
+         #set($list=$sqlhelper.GetArticleBy($column.ColumnID))
+        <div class="item item-0"> 
+         <ul> 
+           #foreach($m in $list)
+          <li class="faq-0"><span class="sign">Q</span> <a class="question2" #if($m.LinkOutUrl!="") href="$m.LinkOutUrl" target="_blank" #else href="/Show.aspx?chid=$m.ChannelID&cid=$m.ColumnID&id=$m.ArticleID" #end title="$m.ArticleName">$m.ArticleName</a> <p class="answer">$m.Description</p></li> 
+           #end
+         </ul>
+        </div> 
+       </div>
+       <!--/ 问答列表-->
+      </div>
+     </div> 
+     #parse("left.html")
+     #parse("right.html")
+    </div>
+   </div> 
+   
+  </div>
+ </body>
+</html>

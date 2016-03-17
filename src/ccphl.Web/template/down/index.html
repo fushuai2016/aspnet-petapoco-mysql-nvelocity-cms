@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="$site/css/Base.css"/>
+<link rel="stylesheet" type="text/css" href="$site/css/css.css"/>
+<title>为民服务站下载中心</title>
+</head>
+
+<body>
+<div class="header-box">
+	<div class="header">
+        <div class="logo fl">
+            <img src="$site/images/logo .png" />
+        </div>
+        <div class="user-button fr">
+            <a href="$organsite/Login.aspx">
+                <div class="user"></div>
+                <h1>登录</h1>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="tips">
+	<div>
+    	<img src="$site/images/img.jpg" />
+    </div>
+</div>
+<div class="mainContent">
+	<ul>
+        #set($list=$sqlhelper.GetDownloadList(""))
+        #foreach($m in $list)
+    	<li>
+            <div style=" float:left;padding: 20px 20px 0 0;">
+                <img title="$!m.Description" alt="$m.FileName" src="$!m.Thumb" width="99" height="99"/>
+            </div>
+        	<div class="fl">
+                <h1>$!m.FileName</h1>
+                <p>$!m.Description</p>
+            </div>
+            <div class="button fr">
+				<span>&nbsp;</span>
+				<a href="$m.FilePath">立即下载</a>	
+			</div>
+        </li>
+        #end
+        
+    </ul>
+</div>
+<div class="footer">
+	
+</div>
+</body>
+</html>

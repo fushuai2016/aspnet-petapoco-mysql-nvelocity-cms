@@ -1,0 +1,195 @@
+.ellipsis {
+	overflow: hidden; white-space: nowrap; word-break: normal; text-overflow: ellipsis; _width: 100%;
+}
+body {
+	background: rgb(255, 255, 255); font: 12px/1.5 Arial, Helvetica, "Microsoft YaHei", simsun, sans-serif; min-width: 1240px; font-size-adjust: none; font-stretch: normal;
+}
+i {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+.txt-ellipsis {
+	overflow: hidden; white-space: nowrap; word-wrap: normal; text-overflow: ellipsis;
+}
+.sub-header .layout-inner {
+	height: 73px;
+}
+.sub-header .logo {
+	padding: 9px 0px 0px;
+}
+.faq-banner {
+	background: url("../image/banner_bg.png?v=1503121715"); margin: 0px 0px 35px;
+}
+.faq-banner .layout-inner {
+	height: 135px; overflow: hidden; position: relative;
+}
+.faq-banner .bg {
+	background: url("../image/base.png?v=1503121715") no-repeat 0px -85px; top: -20px; width: 397px; height: 156px; right: 0px; position: absolute;
+}
+.faq-banner .desc {
+	margin: 25px 0px 0px; color: rgb(255, 255, 255);
+}
+.faq-banner .desc h3 {
+	font-family: "Microsoft YaHei","ºÚÌå","Arial"; font-size: 36px; font-weight: normal;
+}
+.faq-banner .desc p {
+	font-size: 16px;
+}
+.faq-container {
+	margin: 0px 0px 50px;
+}
+.faq-main {
+	width: 100%; float: left;
+}
+.faq-main-in {
+	padding: 0px 261px 0px 241px;
+}
+.faq-list {
+	margin: 0px 30px; position: relative; min-height: 462px; _height: 462px;
+}
+.faq-list .item {
+	display:block;
+}
+.faq-list li {
+	margin: 0px 0px 40px; padding: 0px 0px 0px 40px; position: relative;
+}
+.faq-list .sign {
+	background: rgb(52, 180, 73); border-radius: 100%; left: 0px; top: 0px; width: 28px; height: 28px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 18px; position: absolute;
+}
+.faq-list .question {
+	margin: 0px 0px 8px 30px; color: rgb(51, 51, 51); line-height: 28px; font-size: 18px;
+}
+.faq-list .question2{
+	margin: 0px 0px 20px 30px; color: rgb(51, 51, 51); line-height: 28px; font-size: 18px;
+}
+.faq-list .answer {
+	color: rgb(102, 102, 102); line-height: 1.8; font-size: 16px;
+}
+.faq-aside {
+	margin: 0px 0px 0px -1240px; width: 241px; float: left;
+}
+.question-list {
+	border-top-color: rgb(222, 222, 222); border-top-width: 1px; border-top-style: solid;
+}
+.question-list dl {
+	text-indent: 50px; font-size: 16px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.question-list dt {
+	border-width: 0px 1px; border-style: solid; border-color: rgb(222, 222, 222); line-height: 59px; font-size: 18px; position: relative; cursor: pointer;zoom:1;
+}
+.question-list dt a{
+	border-width: 0px 1px;  border-color: rgb(222, 222, 222); line-height: 59px; font-size: 18px; position: relative; cursor: pointer;
+}
+.question-list dt a:hover{
+	color: rgb(56, 170, 84);text-decoration:none;
+}
+.question-list dd {
+	background: rgb(249, 249, 249); border-width: 0px 1px; border-style: solid; border-color: rgb(222, 222, 222); line-height: 50px; display: none;
+}
+.question-list dd a {
+	color: rgb(102, 102, 102);
+}
+.question-list dd a:hover {
+	color: rgb(56, 170, 84);text-decoration:none;
+}
+.question-list dd .on {
+	color: rgb(56, 170, 84);
+}
+.question-list .arrow {
+	background: url("../image/base.png?v=1503121715") no-repeat -38px 0px; margin: -5px 0px 0px; left: 23px; top: 50%; width: 5px; height: 9px; position: absolute;
+}
+.question-list .show dt {
+	border-bottom-width: 1px;
+}
+.question-list .current dt {
+	border-bottom-width: 1px;
+}
+.question-list .show .arrow {
+	background-position: -19px 0px; margin: -3px 0px 0px; width: 9px; height: 5px;
+}
+.question-list .current .arrow {
+	background-position: -19px 0px; margin: -3px 0px 0px; width: 9px; height: 5px;
+}
+.question-list .show dd {
+	display: block;
+}
+.question-list .current dt {
+	background: rgb(52, 180, 73); border-color: rgb(52, 180, 73); color: rgb(255, 255, 255);
+}
+.question-list .current dt a{
+	background: rgb(52, 180, 73); border-color: rgb(52, 180, 73); color: rgb(67, 74, 84);
+}
+.question-list .current dt a:hover{
+	color:rgb(255, 255, 255); text-decoration:none;
+}
+.question-list .current .arrow {
+	background-position: -53px 0px; margin: -5px 0px 0px; width: 5px; height: 9px;
+}
+.question-list .current.show .arrow {
+	margin: -3px 0px 0px; width: 9px; height: 5px;
+}
+.faq-ext {
+	margin: 0px 0px 0px -261px; width: 261px; float: left;
+}
+.ext-list {
+	overflow: hidden;
+}
+.ext-list .item {
+	margin: 0px 0px 35px;
+}
+.ext-list .hd {
+	margin: 0px 0px 15px; text-align: center; position: relative; _zoom: 1;
+}
+.ext-list .hd .tit {
+	background: rgb(255, 255, 255); padding: 0px 9px; display: inline-block; position: relative; z-index: 5;
+}
+.ext-list .hd .tit i {
+	background: url("../image/base.png?v=1503121715") no-repeat; text-indent: -9999em; overflow: hidden; display: block;
+}
+.ext-list .hd .line {
+	background: rgb(217, 217, 217); margin: -1px 0px 0px; left: 0px; top: 50%; width: 100%; height: 1px; overflow: hidden; position: absolute; z-index: 0;
+}
+.ext-list .bd {
+	color: rgb(102, 102, 102); line-height: 1.8;
+}
+.ext-list .item-notice .hd .tit i {
+	background-position: 0px -19px; width: 47px; height: 22px;
+}
+.ext-list .item-notice .bd {
+	font-size: 14px;
+}
+.ext-list .item-notice .bd a {
+	color: rgb(102, 102, 102);
+}
+.ext-list .item-notice .desc {
+	margin: 0px 0px 10px; padding: 0px 0px 0px 25px; position: relative; _zoom: 1;
+}
+.ext-list .item-notice .desc span {
+	left: 0px; top: -1px; color: rgb(75, 184, 102); font-size: 16px; position: absolute;
+}
+.ext-list .item-notice .more {
+	margin: 10px 0px 0px; text-align: right;
+}
+.ext-list .item-notice .more a {
+	margin: 0px 15px 0px 0px; color: rgb(153, 153, 153);
+}
+.ext-list .item-hot .hd .tit i {
+	background-position: 0px -51px; width: 95px; height: 24px;
+}
+.ext-list .item-hot .bd {
+	font-size: 16px;
+}
+.ext-list .item-hot .bd li {
+	margin: 0px 0px 8px; padding: 0px 0px 0px 13px; position: relative;
+}
+.ext-list .item-hot .bd .point {
+	background: rgb(203, 203, 203); border-radius: 100%; left: 0px; top: 12px; width: 4px; height: 4px; overflow: hidden; position: absolute;
+}
+.ext-list .item-hot .bd a {
+	color: rgb(102, 102, 102);
+}
+.ext-list-fixed {
+	background: rgb(255, 255, 255); top: 10px; width: 261px; position: fixed; _position: static;
+}

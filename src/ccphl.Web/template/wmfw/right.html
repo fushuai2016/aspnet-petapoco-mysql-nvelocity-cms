@@ -1,0 +1,35 @@
+﻿<div class="faq-ext">
+    <div id="extList" class="ext-list">
+        <!--公告-->
+        <div class="item item-notice" style="display: none;">
+            <div class="hd">
+                <span class="tit"><i>公告</i></span> <span class="line"></span>
+            </div>
+            <div class="bd">
+                <div class="more">
+                    <a title="更多" href="#">更多&gt;&gt;</a>
+                </div>
+            </div>
+        </div>
+        <!--/ 公告-->
+        <!--热门问题-->
+        <div id="questionHot" class="item item-hot">
+            <div class="hd">
+                <span class="tit"><i>热门问题</i></span> <span class="line"></span>
+            </div>
+            <div class="bd">
+                <ul>
+                    #set($list=$sqlhelper.GetArticleBy(5,$column.ColumnID)) #foreach($m
+                    in $list)
+                    <li><span class="point"></span>
+                        <p>
+                            <a #if($m.LinkOutUrl!="") href="$m.LinkOutUrl" target="_blank" #else href="/Show.aspx?chid=$m.ChannelID&cid=$m.ColumnID&id=$m.ArticleID" #end title="$m.ArticleName">
+                                $m.ArticleName</a></p>
+                    </li>
+                    #end
+                </ul>
+            </div>
+        </div>
+        <!--/ 热门问题-->
+    </div>
+</div>
